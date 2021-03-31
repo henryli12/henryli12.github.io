@@ -1,0 +1,37 @@
+.image-container img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  vertical-align: bottom;
+}
+
+.socials {
+  background-color: rgb(255, 234, 142);
+}
+
+.fh5co-cover span{
+  color: rgb(255, 60, 0);
+  font-weight: bold;
+}
+
+.fh5co-nav ul a:hover{
+  background-color: rgb(238, 234, 218);
+}
+
+#fh5co-header .display-tc .btn.btn-twitter,
+.fh5co-cover .display-tc .btn.btn-twitter {
+  background: rgb(32, 135, 253);
+  border: none;
+  color: rgb(255, 255, 255) !important;
+}
+#fh5co-header .display-tc .btn.btn-twitter:hover, #fh5co-header .display-tc .btn.btn-twitter:focus,
+.fh5co-cover .display-tc .btn.btn-twitter:hover,
+.fh5co-cover .display-tc .btn.btn-twitter:focus {
+  background: rgba(19, 126, 248, 0.9) !important;
+  color: rgb(255, 255, 255) !important;
+}
