@@ -110,6 +110,7 @@
 			$('.js-fullheight').css('height', $(window).height());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
+				$('.js-fullheight').css('width', $(window).width());
 			});
 		}
 
@@ -150,7 +151,7 @@
 				
 			}
 
-		} , { offset: '85%' } );
+		} , { offset: '100%' } );
 	};
 
 
