@@ -13,7 +13,7 @@
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7;
   color: #333333;
   background: rgb(255, 243, 187);
@@ -503,6 +503,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .user-frame p {
   color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
 }
 .user-frame span {
   font-weight: bold;
@@ -789,7 +790,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-project .project-text {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   position: relative;
   width: 100%;
   padding: 30px;
@@ -804,7 +805,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-project .project-text span {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 14px !important;
   color: rgba(0, 0, 0, 0.3);
 }
