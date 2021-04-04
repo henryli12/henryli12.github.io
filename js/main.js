@@ -108,6 +108,7 @@
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
+			$('.js-fullheight').css('width', $(window).width());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
 				$('.js-fullheight').css('width', $(window).width());
